@@ -1,0 +1,164 @@
+.wrapper{
+    width:95%;
+    background-color:#121212;
+}
+html{
+    background-color:#000;
+}
+body{
+    background-color:#000 !important;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.content{
+    padding:20px;
+}
+.nav{
+    display:flex;
+    flex-flow:row;
+    justify-content: center;
+    align-items: center;
+    background-color:#0d0d0d;
+    padding:10px!important;
+}
+.nav-left{
+    align-items: center;
+    display: flex;
+}
+.socials{
+    width:30%;
+}
+.social-link{
+    float:right;
+}
+.social-img{
+    width:40px;
+    height:auto;
+}
+.logo{
+    width:100px;
+}
+.nav-text,
+.nav-text:hover,
+.nav-text:active,
+.nav-text:visited{
+    color:white;
+    text-decoration: none;
+    font-weight:600;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size:30px;
+}
+.column{
+    flex-flow:column;
+}
+.home-image-div{
+    align-items: center;
+    display: flex;
+}
+.home-image{
+    width:100%
+}
+.home-h2{
+    font-size: 75px;
+}
+.home-p{
+    font-size: 30px;
+}
+.slide-show{
+    height:500px;
+}
+.slide-img{
+    width: 100%;
+}
+.slide-img-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-h2{
+    font-size: 50px;
+}
+.slide-p{
+    font-size: 30px;
+}
+
+
+
+.mobile-nav{
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+.mobile-nav #myLinks {
+  display: none;
+}
+
+.mobile-nav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}
+
+.mobile-nav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.active-nav {
+  background-color: #121212;
+  color: white;
+}
+.mobile-logo-a{
+    width: 130px;
+}
+.mobile-hamburger-a{
+    width: 102px;
+}
+
+.mobile-socials{
+    display: flex;
+    justify-content: center;
+}
+.mobile-nav{
+    display:none;
+}
+.footer-row{
+    height:150px;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+}
+
+@media (max-width: 906px){
+    .desktop-nav{
+        display:none;
+    }
+    .mobile-nav{
+        display:block;
+    }
+}
+@media (max-width: 768px){
+    .home-text{
+        text-align:center;
+    }
+    .slide-text-div{
+        text-align:center;
+        margin-top:10px !important;
+    }
+    .footer-row p{
+        text-align:center;
+    }
+    .mobile-row-reverse{
+        flex-flow:row-reverse;
+    }
+}
