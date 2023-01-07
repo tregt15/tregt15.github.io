@@ -44,6 +44,10 @@ body{
 .twitter div{
     width:100%
 }
+.div-spacing{
+    margin-top:50px;
+    margin-bottom:50px;
+}
 .nav-text,
 .nav-text:hover,
 .nav-text:active,
